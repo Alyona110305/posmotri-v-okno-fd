@@ -97,12 +97,27 @@ ol {
   align-items: flex-start;
 }
 
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  font-style: normal;
+}
+
 .content__list-container {
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: auto;
   gap: 30px;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #545050;
 }
 
 .content__details {
