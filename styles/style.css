@@ -126,7 +126,7 @@ ol {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
+  justify-content: space-between;
 }
 
 .content__video-card-thumbnail {
@@ -136,4 +136,8 @@ ol {
   justify-self: end;
   object-fit: cover;
   object-position: left;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
 }
