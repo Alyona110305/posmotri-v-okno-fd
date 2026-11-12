@@ -76,10 +76,12 @@ ol {
 
 .result__video-container {
   position: relative;
+  width: 100%;
 }
 
 .result__video {
-  max-width: 100%;
+  max-height: 386px;
+  width: 100%;
   object-position: center;
   object-fit: cover;
 }
