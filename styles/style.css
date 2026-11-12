@@ -183,6 +183,7 @@ input[type='text']:focus {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  min-height: 34px;
 }
 
 .button:hover {
@@ -224,6 +225,7 @@ input[type='text']:focus {
   color: #fff;
   font-family: Oswald, sans-serif;
   line-height: 1;
+  justify-self: center;
 }
 
 .content__accent {
