@@ -321,7 +321,6 @@ input[type='text']:focus {
 }
 
 .content__video-card-description {
-  line-height: 16px;
   display: -webkit-box;
   overflow: hidden;
   max-width: 196px;
