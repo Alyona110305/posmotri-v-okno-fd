@@ -74,6 +74,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 100%;
 }
 
@@ -206,6 +207,7 @@ input[type='text']:focus {
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow: auto;
