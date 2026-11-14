@@ -122,6 +122,11 @@ ol {
   min-width: 212px;
 }
 
+.search-form__fieldset:has(.search-form__textfield) {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+
 input[type='text'] {
   border-left: none;
   border-right: none;
@@ -157,6 +162,7 @@ input[type='text']:focus {
   height: 19px;
   border: 1px solid #fff;
   padding: 1px;
+  align-self: center;
 }
 
 .search-form__pseudo-checkbox::after {
