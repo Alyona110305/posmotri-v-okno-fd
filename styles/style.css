@@ -61,7 +61,7 @@ ol {
   grid-template-columns: minmax(0, 711px) minmax(399px, 1fr);
   align-items: flex-end;
   max-width: 1140px;
-  gap: 32px;
+  gap: 30px;
   align-self: center;
   justify-self: center;
 }
