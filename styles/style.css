@@ -9,7 +9,8 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
+  inline-size: 100%;
+  max-inline-size: 1200px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -220,6 +221,8 @@ input[type='text']:focus {
   max-height: 298px;
   gap: 30px;
   min-height: 298px;
+  width: 100%;
+  max-width: 399px;
 }
 
 .title {
@@ -294,10 +297,6 @@ input[type='text']:focus {
 
 .content__card-link:active {
   background-color: #545050;
-}
-
-.content__list-item {
-  /* padding: 0 3px; */
 }
 
 .content__video-card-title {
