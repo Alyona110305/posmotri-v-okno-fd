@@ -218,16 +218,15 @@ input[type='text']:focus {
   display: flex;
   flex-direction: column;
   overflow: auto;
-  max-height: 298px;
   gap: 30px;
-  min-height: 298px;
+  height: 298px;
   width: 100%;
   max-width: 399px;
 }
 
-.content__list-item {
-  padding: 3px;
-}
+.content__list-item { 
+  padding: 2px 3px; 
+} 
 
 .title {
   font-size: 75px;
@@ -342,8 +341,7 @@ input[type='text']:focus {
 }
 
 .more-button {
-  width: 100%;
-  margin-inline: 3px;
+  margin: 0 3px 3px;
   inline-size: calc(100% - 6px);
 }
 
