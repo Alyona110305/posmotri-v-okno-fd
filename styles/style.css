@@ -126,7 +126,7 @@ ol {
 }
 
 input[type='text'] {
-  border-inline: none; 
+  border-inline: none;
   border-block: 1px solid #fff;
   background-color: transparent;
   height: 25px;
