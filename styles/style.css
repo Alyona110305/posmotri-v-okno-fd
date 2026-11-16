@@ -342,7 +342,7 @@ input[type='text']:focus {
 
 .more-button {
   margin: 0 3px 3px;
-  inline-size: calc(100% - 6px);
+  width: calc(100% - 6px);
 }
 
 .search-form__label:has(.search-form__checkbox),
