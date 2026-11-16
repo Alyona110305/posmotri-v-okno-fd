@@ -222,10 +222,11 @@ input[type='text']:focus {
   height: 298px;
   width: 100%;
   max-width: 399px;
+  padding-top: 2px;
 }
 
 .content__list-item {
-  padding: 2px 3px;
+  padding: 0 3px;
 }
 
 .title {
