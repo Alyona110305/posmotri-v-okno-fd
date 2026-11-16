@@ -224,9 +224,9 @@ input[type='text']:focus {
   max-width: 399px;
 }
 
-.content__list-item { 
-  padding: 2px 3px; 
-} 
+.content__list-item {
+  padding: 2px 3px;
+}
 
 .title {
   font-size: 75px;
